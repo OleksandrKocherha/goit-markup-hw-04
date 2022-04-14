@@ -205,7 +205,7 @@ header {
     url(../images/bg-hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .hero-title {
@@ -266,8 +266,7 @@ header {
   background-color: var(--btn-bg-color);
   margin-bottom: 30px;
 }
-
-.icons {
+*/ .icons {
   width: 70px;
   height: 70px;
 }
