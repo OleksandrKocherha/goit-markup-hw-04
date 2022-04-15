@@ -468,14 +468,16 @@ header {
 .our-clients .item:focus {
   border: 1px solid var(--accent-color);
 }
-
-.icon {
-  fill: #afb1b8;
+.link-icon:hover,
+.link-icon:focus {
+  background-color: var(--accent-color);
 }
 
 .icon {
   width: 106px;
   height: 60px;
+
+  fill: #afb1b8;
 }
 
 /* footer */
