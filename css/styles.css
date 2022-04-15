@@ -407,7 +407,8 @@ header {
   margin-right: 10px;
 }
 
-.bg-link:hover {
+.bg-link:hover,
+.bg-link:focus {
   color: var(--bg-color);
   background-color: var(--accent-color);
 }
@@ -552,7 +553,8 @@ footer .text {
   margin-right: 10px;
 }
 
-.footer-bg-link:hover {
+.footer-bg-link:hover,
+.footer-bg-link:focus {
   color: var(--bg-color);
   background-color: var(--accent-color);
 }
