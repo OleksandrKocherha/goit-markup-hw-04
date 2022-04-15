@@ -463,7 +463,8 @@ header {
   fill: var(--accent-color);
 }
 
-.our-clients .item:hover {
+.our-clients .item:hover,
+.our-clients .item:focus {
   border: 1px solid var(--accent-color);
 }
 
