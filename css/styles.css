@@ -461,8 +461,7 @@ header {
 
 .item:hover .icon,
 .item:focus .icon {
-  color: var(--bg-color);
-  background-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .our-clients .item:hover,
