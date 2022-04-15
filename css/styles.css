@@ -424,7 +424,7 @@ header {
   background-color: var(--bg-color);
 
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 88px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -438,46 +438,36 @@ header {
   margin-bottom: 50px;
 }
 
-.our-clients {
+.list-icon {
   display: flex;
-  margin-left: calc(-1 * var(--pictures-margin));
+}
+.item-icon:not(:first-child) {
+  margin-left: 30px;
 }
 
-.our-clients .item {
-  flex-basis: calc(100% / 6 - var(--pictures-margin));
-  margin-left: var(--pictures-margin);
+.link-icon {
+  display: block;
+}
 
+.link-icon {
+  display: flex;
   width: 170px;
   height: 92px;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  cursor: pointer;
 }
 
-.item:hover .icon,
-.item:focus .icon {
-  fill: var(--accent-color);
-}
-
-.our-clients .item:hover,
-.our-clients .item:focus {
-  border: 1px solid var(--accent-color);
-}
 .link-icon:hover,
 .link-icon:focus {
-  background-color: var(--accent-color);
+  color: #2196f3;
+  border: 1px solid #2196f3;
 }
 
-.icon {
-  width: 106px;
-  height: 60px;
-
-  fill: #afb1b8;
+.icon-clients {
+  fill: currentColor;
 }
 
 /* footer */
