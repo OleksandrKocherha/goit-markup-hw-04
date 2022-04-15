@@ -266,7 +266,7 @@ header {
   background-color: var(--btn-bg-color);
   margin-bottom: 30px;
 }
-*/ .icons {
+.icons {
   width: 70px;
   height: 70px;
 }
